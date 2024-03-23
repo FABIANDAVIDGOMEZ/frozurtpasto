@@ -1,0 +1,520 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Literaturnaya&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Neue+Machina:wght@400&display=swap');
+
+#inicio{
+display:flex;
+justify-content: left;
+align-items: center;
+background-color: #FBD0FC;
+border: 10px solid;
+border-color: #fff;
+border-bottom: none;
+animation-name: cambio-color;
+animation-duration: 5s;
+animation-timing-function: linear;
+}
+
+@keyframes cambio-color{
+    from {
+        background-color: #fff;
+    }
+
+    to {
+        background-color: #FBD0FC;
+    }
+}
+
+.titulo1{
+margin-left: 250px;
+font-size: 200%;
+}
+
+#imagen{
+position: relative;
+top: 10%;
+left: 25%;
+width: 350px;
+height: 350px;
+}
+
+body{
+background-color:#8B949D;
+
+}
+
+h1{
+-webkit-text-stroke: 2px #eb3a84;
+color: #927b7b;
+font-size: 250%;
+font-family:'Times New Roman', Times, serif;
+font-style:initial;
+}
+
+h2{
+color: rgb(56, 74, 122);
+-webkit-text-stroke: 2px #090a50;
+font-size: 100%;
+margin-left: 200px;
+font-family: "open sans"
+}
+
+.redes{
+background-color: #FBD0FC;
+animation-name: cambio-color;
+animation-duration: 5s;
+animation-timing-function: linear;
+}
+
+.redes{
+margin-left: 150px;
+}
+
+.redes a{
+    margin-left: 10px;
+}
+
+.botones1{
+background-color: #FBD0FC;
+padding: 1px;   
+border: 10px solid;
+border-color: #fff;
+border-top: none;
+animation-name: cambio-color;
+animation-duration: 5s;
+animation-timing-function: linear;
+}
+
+.botones2 a{
+text-decoration: none;
+color:#eb3a84;
+background-image: linear-gradient(to right, #7aafb1, #ff9999);
+padding:4px;
+border-radius: 8px;
+font-size: 200%;
+margin-left: 15px;
+text-decoration: underline;
+}
+
+.botones2 a:hover{
+color: #f0d4e7;
+background-color: #eb3a84;
+}
+
+.botones2{
+text-align: right;
+}
+
+.columna1 {
+display: flex;
+justify-content: right;
+align-items: center;
+}
+.imagen2{
+margin-right: 55px;
+margin-left: 40px;
+margin-top: 60px;
+}
+
+.columna1 h3{
+margin-top: 1px;
+color: #f0c8a4;
+}
+
+.texto1{
+padding: 40px;
+position: relative;
+width: 50%;
+height: 50%;
+margin-top: 1px;
+margin-right: 70px;
+margin-left: 50px;
+
+}
+
+.viñetas1 li{
+color: #fff;
+font-size: large;
+font-family: 'Times New Roman';
+}
+
+.contenido2{
+background-color: #FBD0FC;
+display: flex;
+justify-content: center;
+margin-top: 15px;
+}
+
+.columna2{
+margin-top: 40px;
+}
+
+.columna2 h3{
+margin-top: 35px;
+margin-left: 75px;
+font-size: 200%;
+color: #CE3586;
+font-family: 'open sans'
+}
+
+.columna2 p{
+margin-left: 35px;
+padding: 4px;
+position: relative;
+width: 90%;
+height: 30%;
+margin-top: 1px;
+margin-right: 1px;
+margin-left: 50px;
+text-align: justify;
+font-size: 140%;
+color: #493725;
+}
+
+#yogurt1{
+display: flex;
+position: relative;
+margin-left: 10px;
+margin-right: 10px;
+margin-top: 50px;
+margin-bottom: 150px;
+transition: opacity 0.3s ease
+}
+
+#imgform1{
+transition: transform 0.3s ease;
+}
+
+#contenido3{
+background-color: #ABA08F;
+display: flex;
+height: 650px;
+}
+
+.columna3{
+margin-top: 20px;
+}
+
+.titulo3 h3{
+font-size: 30px;
+color: #CE3586;
+padding: 4px;   
+width: 350px;
+height: 80px;
+text-align: center;
+position: relative;
+top: 45px;
+left: 240px;
+}
+
+#nuestro{
+transition: font-size 0.5s ease;
+}
+
+.columna3 p{
+margin-left: 30px;
+padding: 4px;
+position: relative;
+top: 130px;
+left: -320px;
+width: 700px;
+height: 380px;
+text-align: justify;
+font-size: 25px;
+color: #FFFCF7;
+transition: color 0.3s ease;
+}
+
+
+video{
+position: relative;
+width: 400px;
+height: 400px;
+top: 120px;
+left: -250px;
+}
+   
+.imagen4{
+display: flex;
+margin-left: 1px;
+margin-right: 100px;
+margin-top: 198px;
+margin-bottom: 50px; 
+}
+
+#registrate{
+font-size: 25px;
+transition: font-size 0.3s ease;
+}
+
+.registro{
+padding: 40px 1px 40px 20px;
+background-color: #ABA08F;
+width: 200px;
+border-radius: 25px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+text-align: left;
+color: #000;
+margin-left: 150px;
+margin-top: 1px;
+font-size: large;
+}
+
+button{
+background-color: #3D5A98; 
+color: #000;
+border-style: solid;
+border-color: #000;
+text-align: center;
+padding-left: 10px;
+padding-top: 4px;
+padding-bottom: 4px;
+padding-right: 10px;
+height: 10%;
+border-radius: 10px;
+margin-left: 40px;
+font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.contenido4 {
+background-color: #EDE2D7;
+display: flex;
+justify-content: left;
+align-items:center;
+}
+  
+#titulo4{
+background-color: #8B949D;
+color: #CE3586;
+font-family: 'open sans';
+text-align: center;
+padding: 10px;  
+margin-bottom: 1px;
+position: relative;
+padding: 25px;
+width: 600px;
+height: 600px;
+}
+
+#titulo4 p{
+color: #fff;
+padding: 5px;
+font-size: 150%;
+width: 450px;
+height: 80px;
+margin-top: 10px;
+margin-left: 50px;
+text-align: justify;
+}
+
+#titulo4 h3{
+font-size: 25px;
+margin-top: 50px;
+padding: 4px;
+}
+
+.imagen3{
+margin-right: 55px;
+margin-left: 150px;
+margin-top: 100px;
+}
+
+.contenido5{
+background-color: #FBD0FC;
+height: 650px;
+}
+
+.titulo5 {
+padding: 4px;
+text-align: center;
+color: #F2615B;
+font-family: 'Times New Roman', Times, serif;
+font-size: 35px;
+transition: font-size 0.3s ease;
+}
+
+.imagenset{
+display: flex;
+justify-content: center;
+}
+
+#imgset1{
+margin-right: 120px;
+transition: opacity 0.3s ease;
+}
+
+#imgset2{
+transition: opacity 0.3s ease
+}
+
+#imgset3{
+margin-left: 110px;
+transition: opacity 0.3s ease;
+}
+
+.textoimg1{
+display: flex;
+justify-content: center;
+}
+
+.tituloimg1{
+padding: 25px;
+text-align: center;
+width: 210px;
+font-family: 'Times New Roman', Times, serif;
+font-size: 18px;
+}
+
+.tituloimg2{
+padding: 25px;
+margin-left: 60px;
+margin-right: 60px;
+text-align: center;
+width: 210px;
+font-family: 'Times New Roman', Times, serif;
+font-size: 18px;
+}
+
+.tituloimg3{
+padding: 25px;
+text-align: center;
+width: 210px;
+font-family: 'Times New Roman', Times, serif;
+font-size: 18px;
+}
+
+.titulotabla1{
+color: #CE3586;
+font-family: 'Literaturnaya', sans-serif;
+text-align: center;
+font-size: 30px;
+transition: color 0.5s ease;
+}
+
+#plan{
+    transition: color 0.5s ease;
+}
+
+.titulotabla1 p{
+font-family: 'Open Sans';
+color: #fff;
+font-size: 25px;
+text-align: center;
+padding: 4px;
+width: 600px;
+height: 80px;
+display: flex;
+align-items: center;
+position: relative;
+left: 330px;
+}
+
+.tabla1{
+border-collapse: collapse;
+border: 2px solid #000;
+display: flex;
+justify-content: center;
+width: 680px;
+position: relative;
+left: 300px;
+}
+
+th{
+background-color: #396791;
+padding: 8px;
+color: #fff;
+font-size: 20px;
+border: 3px solid #000;
+font-family:'Neue Machina', sans-serif;
+}
+
+td{
+background-color: #F3D8A2;
+padding: 8px;
+font-size: 20px;
+text-align: center;
+font-family:'Neue Machina', sans-serif;
+border: 3px solid #000;
+}
+
+#plandeprecios{
+background-color: #8B949D;
+padding-bottom: 125px;
+}
+
+#sabores{
+transition: color 0.3s ease;
+}
+
+.boton {
+padding: 10px 20px;
+background-color: #396791;
+color: #fff;
+text-decoration: none;
+border-radius: 5px;
+border: 4px solid;
+border-color: #000;
+font-family: 'Open Sans';
+font-size: 20px;
+position: relative;
+left: 580px;
+}
+
+.boton:hover {
+background-color: #2980b9;
+}
+
+#contenido6{
+display: flex;
+justify-content: center;
+background-color: #FBD0FC;
+padding-bottom: 5px;
+}
+
+#vasoyog3{
+position: relative;
+top: 50px;
+left: -130px;
+transition: transform 0.3s ease;
+}
+
+.contacto1 h3{
+color: #CE3586;
+font-family: 'Literaturnaya', sans-serif;
+text-align: left;
+font-size: 35px;
+position: relative;
+top: 30px;
+left: 150px;
+}
+
+#contacto2{
+padding: 4px;
+font-family: 'Literaturnaya', sans-serif;
+font-size: 25px;
+color: #8B949D;
+height: 450px;
+margin-top: 150px;
+position: relative;
+left: -370px;
+}
+
+.botonini2{
+text-decoration: none;
+color:#eb3a84;
+background-image: linear-gradient(to right, #7aafb1, #ff9999);
+padding: 4px;
+border-radius: 8px;
+font-size: 25px;
+text-decoration: underline;
+}
+
+footer{
+background-color: #FBD0FC;
+text-align: center;
+color: #493725;
+}
