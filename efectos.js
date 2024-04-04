@@ -49,8 +49,8 @@ document.addEventListener("DOMContentLoaded", function() {
 //efecto de movimiento de los parrafos de mision y vision
 
 document.addEventListener("DOMContentLoaded", function() {
-    const movingParagraph = document.getElementById('parrafoyog1');
-    const containerWidth = document.querySelector('.parrafo1').offsetWidth;
+    const movingParagraph = document.getElementById('');
+    const containerWidth = document.querySelector('').offsetWidth;
     
     let position = containerWidth;
   
@@ -69,8 +69,8 @@ document.addEventListener("DOMContentLoaded", function() {
 });
 
 document.addEventListener("DOMContentLoaded", function() {
-    const movingParagraph = document.getElementById('parrafoyog2');
-    const containerWidth = document.querySelector('.parrafo2').offsetWidth;
+    const movingParagraph = document.getElementById('');
+    const containerWidth = document.querySelector('').offsetWidth;
     
     let position = containerWidth;
   
@@ -275,8 +275,8 @@ document.addEventListener("DOMContentLoaded", function() {
 //efecto de movimiento de los parrafos de mision y vision
 
 document.addEventListener("DOMContentLoaded", function() {
-  const movingParagraph = document.getElementById('contacto2');
-  const containerWidth = document.querySelector('.contactosf').offsetWidth;
+  const movingParagraph = document.getElementById('');
+  const containerWidth = document.querySelector('').offsetWidth;
   
   let position = containerWidth;
 

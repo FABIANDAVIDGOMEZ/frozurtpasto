@@ -68,6 +68,7 @@ background-color: #FBD0FC;
 animation-name: cambio-color;
 animation-duration: 5s;
 animation-timing-function: linear;
+box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.3);
 }
 
 .redes{
@@ -152,6 +153,46 @@ margin-top: 15px;
 .columna2{
 margin-top: 40px;
 }
+
+.parrafo1{
+animation: mover-derecha-izquierda 2s 1;
+animation-fill-mode: backwards;
+}
+
+@keyframes mover-derecha-izquierda {
+  
+    from{
+      transform: translateX(400px);
+  }   
+  to{
+      transform: translateX(-1px);
+  }
+
+}
+
+#parrafoyog1{
+overflow: hidden;
+}
+
+.parrafo2{
+    animation: mover-derecha-izquierda 2s 1;
+    animation-fill-mode: backwards;
+    }
+    
+    @keyframes mover-derecha-izquierda {
+      
+        from{
+          transform: translateX(400px);
+      }   
+      to{
+          transform: translateX(-1px);
+      }
+    
+    }
+    
+    #parrafoyog2{
+    overflow: hidden;
+    }
 
 .columna2 h3{
 margin-top: 35px;
@@ -265,7 +306,8 @@ font-size: large;
 }
 
 button{
-background-color: #3D5A98; 
+background-color: #3D5A98;
+box-shadow: 2px 2px 4px 4px rgba(0, 0, 0, 0.3);
 color: #000;
 border-style: solid;
 border-color: #000;
@@ -453,6 +495,7 @@ transition: color 0.3s ease;
 .boton {
 padding: 10px 20px;
 background-color: #396791;
+box-shadow: 2px 2px 4px 4px rgba(24, 23, 23, 0.3);
 color: #fff;
 text-decoration: none;
 border-radius: 5px;
@@ -501,11 +544,29 @@ height: 450px;
 margin-top: 150px;
 position: relative;
 left: -370px;
+overflow: hidden;
 }
+
+.contactosf{
+    animation: mover-derecha-izquierda 2s 1;
+    animation-fill-mode: backwards;
+    }
+    
+    @keyframes mover-derecha-izquierda {
+      
+        from{
+          transform: translateX(400px);
+      }   
+      to{
+          transform: translateX(-1px);
+      }
+    
+    }
 
 .botonini2{
 text-decoration: none;
 color:#eb3a84;
+box-shadow: 2px 2px 4px 4px rgba(146, 119, 119, 0.3);
 background-image: linear-gradient(to right, #7aafb1, #ff9999);
 padding: 4px;
 border-radius: 8px;
