@@ -68,6 +68,21 @@ background-color: #FBD0FC;
 animation-name: cambio-color;
 animation-duration: 5s;
 animation-timing-function: linear;
+}
+
+#facebook{
+    box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+#youtube{
+box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+#instagram{
+box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.3);
+}
+
+#whatsapp{
 box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.3);
 }
 
@@ -145,6 +160,7 @@ font-family: 'Times New Roman';
 
 .contenido2{
 background-color: #FBD0FC;
+background-image: linear-gradient(to right,#FBD0FC , #adb4b4);
 display: flex;
 justify-content: center;
 margin-top: 15px;
@@ -175,11 +191,11 @@ overflow: hidden;
 }
 
 .parrafo2{
-    animation: mover-derecha-izquierda 2s 1;
-    animation-fill-mode: backwards;
-    }
+animation: mover-derecha-izquierda 2s 1;
+animation-fill-mode: backwards;
+}
     
-    @keyframes mover-derecha-izquierda {
+@keyframes mover-derecha-izquierda {
       
         from{
           transform: translateX(400px);
@@ -188,18 +204,18 @@ overflow: hidden;
           transform: translateX(-1px);
       }
     
-    }
+}
     
-    #parrafoyog2{
+#parrafoyog2{
     overflow: hidden;
-    }
+}
 
 .columna2 h3{
 margin-top: 35px;
 margin-left: 75px;
 font-size: 200%;
 color: #CE3586;
-font-family: 'open sans'
+font-family: 'open sans';
 }
 
 .columna2 p{
@@ -375,8 +391,13 @@ padding: 4px;
 text-align: center;
 color: #F2615B;
 font-family: 'Times New Roman', Times, serif;
-font-size: 35px;
+font-size: 30px;
 transition: font-size 0.3s ease;
+position: relative;
+}
+
+#experiencia{
+transition: font-size 0.5s ease;
 }
 
 .imagenset{
@@ -516,6 +537,7 @@ display: flex;
 justify-content: center;
 background-color: #FBD0FC;
 padding-bottom: 5px;
+background-image: linear-gradient(to right,#FBD0FC , #adb4b4);
 }
 
 #vasoyog3{
@@ -576,6 +598,7 @@ text-decoration: underline;
 
 footer{
 background-color: #FBD0FC;
+background-image: linear-gradient(to right,#FBD0FC , #adb4b4);
 text-align: center;
 color: #493725;
 }

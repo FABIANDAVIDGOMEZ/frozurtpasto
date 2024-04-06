@@ -272,7 +272,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 // Pagina 7 - Contactanos
 
-//efecto de movimiento de los parrafos de mision y vision
+//efecto de movimiento del parrafo datos de contacto
 
 document.addEventListener("DOMContentLoaded", function() {
   const movingParagraph = document.getElementById('');
